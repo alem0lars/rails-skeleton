@@ -1,13 +1,1 @@
-- rake doc:app
-    generate API documentation for your models, controllers, helpers, and libraries.
-- capify .
-    (from the project root directory)
-    initialize capistrano for the current project
-- rails generate devise:install
-    will install an initializer which describes ALL Devise’s configuration options and you MUST take a look at it
-- rails generate devise MODEL
-    add devise model.
-    Replace MODEL by the class name used for the applications users, it's frequently 'User'
-- rails generate active_admin:install
-    The installer creates an initializer used for configuring defaults used by Active Admin as well as a new folder at app/admin to put all your admin configurations.
-- rake db:migrate
+
