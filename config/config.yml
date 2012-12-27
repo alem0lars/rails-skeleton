@@ -1,0 +1,18 @@
+global:
+  app:
+    name: &app_name 'alessandro.nextream-labs.com'
+  domain: 'nextream-labs.com'
+  rvm:
+    ruby: '1.9.3'
+    gemset: 'rails'
+    lib_path: '~/.rvm/lib'
+  deployment:
+    user: 'molarule'
+    private_path: '/home7/molarule/private_html/alessandro'
+  repository:
+    url: 'ssh://git@projects.nextream-labs.com/nextream-labs/alessandro-nextream-labs-com.git'
+    user: 'git'
+
+development:
+test:
+production:
